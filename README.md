@@ -13,7 +13,12 @@ Similarly, when it comes to distributed systems, we have its own set of problems
 (Start with the fundamental client-server architecture as the basis for distributed systems.)
 Client's responsibility - request the server, handle UI, presentation
 Server's responsibility - serve the client, processing etc(Centralized)
-Opposite :  P2P Pattern(Decentralized) - BitTorrent - but this is distributed as well
+
+![ClientServer.png](Images/ClientServer.png)
+
+Opposite :  P2P Pattern(Decentralized) - Example : BitTorrent - but this is distributed as well
+![img.png](Images/P2P.png)
+
 
 2. **Load Balancing Pattern**
 
