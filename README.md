@@ -11,8 +11,8 @@ Similarly, when it comes to distributed systems, we have its own set of problems
 1. **Client-Server Pattern**
 
 (Start with the fundamental client-server architecture as the basis for distributed systems.)
-Client's responsibility - request the server, handle UI, presentation
-Server's responsibility - serve the client, processing etc(Centralized)
+* Client's responsibility - request the server, handle UI, presentation
+* Server's responsibility - serve the client, processing etc(Centralized)
 
 ![ClientServer.png](Images/ClientServer.png)
 
