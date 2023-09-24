@@ -58,7 +58,22 @@ Learn about isolating components to enhance system resilience.
 
 11. **Circuit Breaker Pattern**
 
-Understand how to prevent repeated failures from affecting the system.
+(Understand how to prevent repeated failures from affecting the system.)
+
+1. Configure a failure threshold - say 'T'
+2. Track requests and their state - failure/success
+3. If failures cross T within a time period, open the circuit (redirect/failure message) - open
+4. After a cooldown time, allow partial requests and see if system is back - half open
+5. Depending on success rate in the half-open state, close/open the circuit
+
+Pros:
+1. Failure tolerance
+2. Load Management
+3. Graceful degradation
+4. Monitoring and insights
+5. Automatic recovery
+
+![img.png](Images/CircuitBreaker.png)
 
 12. **Saga Pattern**
 
